@@ -432,7 +432,7 @@ module Fluent::Plugin
         true
       elsif (log_group = find_log_group(group_name))
         @sequence_tokens[group_name] = {}
-        true-
+        true
       else
         false
       end
